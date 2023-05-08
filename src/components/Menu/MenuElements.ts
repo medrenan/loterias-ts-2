@@ -12,7 +12,7 @@ export const NavLink = styled(Link)`
     text-decoration-line: none;
     margin-right: 20px;
     color: ${props => props.theme.loteria};
-    &:focus {
+    &.active {
         color: grey
     }
 `
